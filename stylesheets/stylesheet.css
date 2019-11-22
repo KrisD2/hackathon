@@ -11,8 +11,11 @@ body{
 
 img {
   width: 200px;
+  border-radius: 50px;
 }
 
 body {
-  background: url(images/FriendsgivngII.jpg);
+  background: url(../images/FriendsgivngII.jpg);
+  background-size: cover;
+  background-position: center;
 }
