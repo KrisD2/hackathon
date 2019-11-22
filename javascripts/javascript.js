@@ -7,7 +7,9 @@ $(function() {
     $('.food').off('click');
 
 
-    $('body').children().delay(3000).hide();
+    $('body').children().delay(function() {
+      $(this).hide();
+    }, 3000);
     $('.congrats').delay(5000).fadeIn(500);
   });
 });
