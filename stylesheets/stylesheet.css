@@ -3,19 +3,22 @@ body{
 }
 #content{
 	text-align: center;
-	padding-top: 5%;
+  padding-top: 25%;
 }
 #content div{
   padding: 10px;
+  display: inline-block;
+  text-align: center;
 }
 
 img {
+  height: 200px;
   width: 200px;
   border-radius: 50px;
 }
 
 body {
   background: url(../images/FriendsgivngII.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
