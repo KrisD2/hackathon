@@ -1,7 +1,7 @@
 body{
   font-family: 'Rubik', sans-serif;
 }
-#header{
+h1{
   color: white;
   font-size: 100px;
   text-align: center;
@@ -9,9 +9,16 @@ body{
   font-family: 'Mountains of Christmas', cursive;
   text-shadow: 0px 0px 50px;
 }
+p{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 0px 0px 50px;
+}
 #content{
 	text-align: center;
-  padding-top: 5%;
+  padding-top: 10px;
 }
 #content div{
   padding: 10px;
